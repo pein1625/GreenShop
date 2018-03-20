@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Description</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Description" />
+    <meta name="keywords" content="Description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal">Open Popup</button>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="popup">
+            <div class="popup__wrap clearfix">
+              <div class="popup__col popup__col--left">
+                <img class="popup__image" src="../../images/flower.png" alt="" />
+              </div>
+              <div class="popup__col popup__col--right">
+                <div class="popup__content">
+                  <div class="popup__headings">
+                    <h2 class="popup__heading popup__heading--gulyesa">Nhận tin tức từ chúng tôi</h2>
+                    <h4 class="popup__heading popup__heading--arial">ĐĂNG KÍ EMAIL NGAY HÔM NAY</h4>
+                  </div>
+                  <form class="popup__form">
+                    <input class="popup__input popup__input--mail" placeholder="Nhập email của bạn vào đây" />
+                    <button class="popup__submit footer-mail__submit border-0" type="submit">
+                      <i class="popup__icon footer-mail__icon--plane fa fa-paper-plane"></i>
+                    </button>
+                  </form>
+                  <p class="popup__text">Đăng ký email ngay hôm nay để nhận các thông tin về sự kiện và các trương chình giảm giá từ chúng tôi</p>
+                  <div class="popup__checkbox">
+                    <label class="popup__label js-popup__label" for="popup__input--checkbox">
+                      <input class="popup__input popup__input--checkbox" id="popup__input--checkbox" type="checkbox" />Không hiển thị lại thông báo này nữa
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="popup__close" data-dismiss="modal">X</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
