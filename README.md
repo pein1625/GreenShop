@@ -1,6 +1,10 @@
 # GreenShop
 Green Shop Project
 
+## Preview
+Home page: [https://pein1625.github.io/GreenShop/dest/index.html]
+Page list: [https://pein1625.github.io/GreenShop/dest/list.html]
+
 ## Install
 ### Setup Develop Environment
 Step1:
